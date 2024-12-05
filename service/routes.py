@@ -64,8 +64,10 @@ def create_accounts():
 def list_accounts():
     """
     List all Accounts
+
     This endpoint will list all Accounts
     """
+
     app.logger.info("Request to list Accounts")
 
     accounts = Account.all()
